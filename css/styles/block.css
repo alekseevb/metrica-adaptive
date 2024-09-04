@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 929px) {
+@media (max-width: 767px) {
     .block__title {
         margin-bottom: 20px;
 

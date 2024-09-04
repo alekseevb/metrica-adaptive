@@ -1,10 +1,10 @@
-/* * {
-    outline: 4px solid green !important;
-} */
-
 @import '../css/styles/block.css';
 @import '../css/styles/history.css';
 @import '../css/styles/projects.css';
+
+/* * {
+    outline: 4px solid green !important;
+} */
 
 body {
     font-family: "Manrope", sans-serif;
@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media (max-width: 929px) {
+@media (max-width: 767px) {
 
     .block-inner {
         padding-bottom: 80px;
