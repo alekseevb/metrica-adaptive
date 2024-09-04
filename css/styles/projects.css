@@ -63,3 +63,69 @@
     color: white;
     background-color: #AD1818;
 }
+
+@media (max-width: 1199px) {
+    .project__itemtitle {
+        margin-bottom: 10px;
+    }
+
+    .project__item {
+        margin-bottom: 80px;
+    }
+
+    .project__item:last-child {
+        margin-bottom: 100px;
+    }
+
+    .project__img-1 {
+        content: url(../../img/tablet-project-1.png);
+    }
+
+    .project__img-2 {
+        content: url(../../img/tablet-project-2.png);
+    }
+
+    .project__img-3 {
+        content: url(../../img/tablet-project-3.png);
+    }
+}
+
+@media (max-width: 929px) {
+    .projects__title {
+        padding-bottom: 20px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .project__itemtitle {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+
+        margin-bottom: 11px;
+    }
+
+    .project__itemlink {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .project__img {
+        height: 250px;
+        padding-bottom: 20px;
+    }
+
+    .project__item {
+        margin-bottom: 49px;
+    }
+
+    .project__item:last-child {
+        margin-bottom: 60px;
+    }
+
+    .projects__link {
+        height: 100px;
+        padding-top: 37px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+}

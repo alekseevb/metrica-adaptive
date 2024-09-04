@@ -40,3 +40,32 @@
     line-height: normal;
     letter-spacing: -0.6px;
 }
+
+@media (max-width: 1199px) {
+    .history__subtitle {
+        max-width: 690px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 929px) {
+    .history__title {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+        text-transform: uppercase;
+    }
+
+    .history__subtitle {
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+
+    .history__btn {
+        width: 194px;
+        height: 50px;
+        padding-top: 12px;
+
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+}
