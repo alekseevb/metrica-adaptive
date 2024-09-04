@@ -1,0 +1,35 @@
+.block__title {
+    margin-bottom: 30px;
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+}
+
+.block-img {
+    position: relative;
+
+    max-width: 1150px;
+    height: 500px;
+
+    background-image: url(../../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.block__text {
+    position: absolute;
+
+    bottom: 40px;
+    left: 40px;
+    width: 430px;
+
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}

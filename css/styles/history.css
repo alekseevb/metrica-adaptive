@@ -1,0 +1,42 @@
+.history__title {
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.history__subtitle {
+    max-width: 1048px;
+
+    margin-bottom: 30px;
+
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+}
+
+.history__btn {
+    display: block;
+
+    width: 255px;
+    height: 67px;
+
+    border-radius: 5px;
+    padding-top: 20px;
+
+    background: #AD1818;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
