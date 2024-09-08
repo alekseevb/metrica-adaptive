@@ -43,13 +43,20 @@ body {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
+    .container {
+        padding: 0 14px;
+    }
 
     .block-inner {
         padding-bottom: 80px;
     }
 
     .history-inner {
+        padding-bottom: 80px;
+    }
+
+    .projects-inner {
         padding-bottom: 80px;
     }
 

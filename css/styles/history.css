@@ -48,11 +48,12 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .history__title {
         font-size: 14px;
         letter-spacing: -0.42px;
-        text-transform: uppercase;
+
+        margin-bottom: 20px;
     }
 
     .history__subtitle {

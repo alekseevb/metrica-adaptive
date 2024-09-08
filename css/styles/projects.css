@@ -85,7 +85,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .projects__title {
         padding-bottom: 20px;
         font-size: 14px;
@@ -120,6 +120,7 @@
     .projects__link {
         height: 100px;
         padding-top: 37px;
+
         font-size: 22px;
         letter-spacing: -0.66px;
     }

@@ -48,7 +48,18 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
+    .block-img {
+        position: relative;
+
+        width: 100%;
+        height: 304px;
+
+        background-image: url(../../img/mobile-main.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
     .block__title {
         margin-bottom: 20px;
 
@@ -59,12 +70,15 @@
     }
 
     .block__text {
-        width: 430px;
+        width: 260px;
 
-        font-size: 20px;
+        left: 15px;
+        bottom: 15px;
+
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.48px;
     }
 }
