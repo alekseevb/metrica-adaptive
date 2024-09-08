@@ -1,6 +1,7 @@
 @import '../css/styles/block.css';
 @import '../css/styles/history.css';
 @import '../css/styles/projects.css';
+@import '../css/styles/services.css';
 
 /* * {
     outline: 4px solid green !important;
@@ -24,6 +25,14 @@ body {
 }
 
 .history-inner {
+    padding-bottom: 150px;
+}
+
+.services {
+    background-color: black;
+}
+
+.services-inner {
     padding-bottom: 150px;
 }
 
