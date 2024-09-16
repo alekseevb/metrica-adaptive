@@ -1,0 +1,89 @@
+.block {
+    margin-bottom: 150px;
+
+    &__inner {}
+
+    &__title {
+        margin-bottom: 30px;
+
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: -1.8px;
+    }
+
+    &__img {
+        position: relative;
+
+        width: 100%;
+        height: 650px;
+
+        background-image: url(../img/main.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__img-text {
+        position: absolute;
+
+        max-width: 430px;
+        bottom: 40px;
+        left: 40px;
+
+
+        color: white;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.6px;
+    }
+}
+
+@media (max-width: 960px) {
+    .block {
+        margin-bottom: 120px;
+
+        &__title {
+            font-size: 50px;
+            letter-spacing: -1.5px;
+        }
+
+        &__img {
+            background-image: url(../img/main-tablet.jpg);
+        }
+
+
+        &__img-text {
+            left: 42px;
+            bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .block {
+        margin-bottom: 80px;
+
+        &__title {
+            font-size: 30px;
+            line-height: 31.621px;
+            letter-spacing: -0.9px;
+        }
+
+        &__img {
+            background-image: url(../img/mobile-main.jpg);
+            background-position: left;
+            height: 304px;
+        }
+
+
+        &__img-text {
+            font-size: 16px;
+            letter-spacing: -0.48px;
+            left: 15px;
+            bottom: 15px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import "./blocks/block";
+@import "./blocks/history";
+@import "./blocks/projects";
+@import "./blocks/services";
+@import "./blocks/reviews";
+
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
