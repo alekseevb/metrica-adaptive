@@ -1,9 +1,9 @@
 .block {
     margin-bottom: 150px;
 
-    &__inner {}
-
     &__title {
+        max-width: 956px;
+
         margin-bottom: 30px;
 
         font-size: 60px;
@@ -22,6 +22,8 @@
         background-image: url(../img/main.jpg);
         background-size: cover;
         background-position: center;
+
+
     }
 
     &__img-text {

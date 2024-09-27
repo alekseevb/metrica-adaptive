@@ -1,8 +1,6 @@
-.history {
+.about {
 
     margin-bottom: 150px;
-
-    &__inner {}
 
     &__title {
         margin-bottom: 30px;
@@ -49,7 +47,7 @@
 }
 
 @media (max-width: 960px) {
-    .history {
+    .about {
 
         margin-bottom: 120px;
 
@@ -61,7 +59,7 @@
 }
 
 @media (max-width: 600px) {
-    .history {
+    .about {
 
         margin-bottom: 80px;
 

@@ -1,0 +1,173 @@
+.gallery {
+
+    position: relative;
+
+    &__title-wrapper {
+        position: absolute;
+        width: 100%;
+        top: 67px;
+        z-index: 1;
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.66px;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        position: relative;
+        height: 717px;
+    }
+
+    &__item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+    &__iten-wrapper {
+        position: absolute;
+
+        width: 100%;
+        bottom: 60px;
+    }
+
+    &__item-box {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    &__item-title {
+
+        width: 443px;
+
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.9px;
+    }
+
+    &__slide {
+
+        &_active {
+            opacity: 1;
+        }
+    }
+
+    &__btn-wrapper {
+        position: absolute;
+        width: 100%;
+        bottom: 162px;
+    }
+
+
+    &__btn-prev {
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    &__btn-prev:hover {
+        opacity: 0.5;
+    }
+
+    &__btn-next {
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    &__btn-next:hover {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 960px) {
+    .gallery {
+        &__title-wrapper {
+            top: 80px;
+            padding-left: 35px;
+        }
+
+        &__title {
+            font-size: 20px;
+            letter-spacing: -0.6px;
+        }
+
+        &__iten-wrapper {
+            bottom: 80px;
+        }
+
+        &__item-title {
+            font-size: 25px;
+            letter-spacing: -0.75px;
+            padding-left: 35px;
+        }
+
+        &__list {
+            height: 408px;
+        }
+
+        &__btn-img {
+            width: 40px;
+        }
+
+        &__btn-wrapper {
+            padding-left: 25px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        &__title-wrapper {
+            top: 61px;
+            padding-left: 12px;
+        }
+
+        &__title {
+            font-size: 14px;
+            letter-spacing: -0.42px;
+        }
+
+        &__iten-wrapper {
+            bottom: 60px;
+
+        }
+
+        &__item-title {
+            max-width: 287px;
+            padding-left: 0;
+            font-size: 19.009px;
+            letter-spacing: -0.57px;
+        }
+
+        &__btn {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__btn-img {
+            width: 30px;
+        }
+
+        &__btn-wrapper {
+            padding-left: 0;
+        }
+    }
+}

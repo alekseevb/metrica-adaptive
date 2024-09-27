@@ -1,0 +1,173 @@
+.contact {
+    margin: 150px 0;
+
+    &__title {
+        margin-bottom: 74px;
+
+        color: #121212;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.54px;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__list-number,
+    &__list-mail {
+        width: 50%;
+    }
+
+    &__list-number {
+        position: relative;
+        color: #121212;
+
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        /* 100% */
+        letter-spacing: -1.8px;
+
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+
+    &__list-number::after {
+        position: absolute;
+        content: ' ';
+        display: block;
+
+        top: -45px;
+        left: -6px;
+
+        width: 24px;
+        height: 24px;
+        background-image: url(../img/iphone.svg);
+    }
+
+    &__list-number:hover {
+        border-bottom: 2px solid black;
+        opacity: 0.5;
+    }
+
+    &__list-mail {
+        position: relative;
+
+        color: #121212;
+
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        /* 100% */
+        letter-spacing: -1.8px;
+
+        text-decoration: none;
+        padding-bottom: 10px;
+
+    }
+
+    &__list-mail::after {
+        position: absolute;
+        content: ' ';
+        display: block;
+
+        top: -45px;
+        opacity: 100;
+
+        width: 24px;
+        height: 24px;
+        background-image: url(../img/mail.svg);
+    }
+
+    &__list-mail:hover {
+        border-bottom: 2px solid black;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 960px) {
+    .contact {
+        margin: 120px 0;
+
+        &__title {
+            font-size: 18px;
+        }
+
+
+
+        &__list-number {
+            font-size: 45px;
+            line-height: 60px;
+            letter-spacing: -1.35px;
+        }
+
+        &__list-mail {
+            font-size: 45px;
+            line-height: 60px;
+            letter-spacing: -1.35px;
+        }
+
+        &__list-mail::after {
+            top: -26px;
+            opacity: 100;
+        }
+
+        &__list-number::after {
+            top: -26px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        &__list {
+            flex-direction: column;
+            gap: 58px;
+        }
+
+        &__list-mail,
+        &__list-number {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .contact {
+        margin: 80px 0;
+
+        &__title {
+            font-size: 14px;
+            letter-spacing: -0.42px;
+            margin-bottom: 58px;
+        }
+
+        &__list-title {
+            font-size: 35px;
+            letter-spacing: -1.05px;
+        }
+
+
+
+        &__list-mail::after {
+            top: -20px;
+            width: 18px;
+            height: 18px;
+            background-size: cover;
+        }
+
+        &__list-number::after {
+            top: -20px;
+            width: 18px;
+            height: 18px;
+            background-size: cover;
+        }
+    }
+}

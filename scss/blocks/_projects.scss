@@ -12,7 +12,7 @@
         text-transform: uppercase;
     }
 
-    &__holder {
+    &__list {
         display: flex;
         flex-direction: column;
         gap: 90px;
@@ -36,6 +36,7 @@
     }
 
     &__item-link {
+
         text-decoration: none;
         font-size: 20px;
         font-style: normal;
@@ -43,7 +44,7 @@
         line-height: normal;
         letter-spacing: -0.6px;
 
-        color: black;
+        color: #AD1818;
     }
 
     &__link {
@@ -88,7 +89,7 @@
             text-transform: uppercase;
         }
 
-        &__holder {
+        &__list {
             gap: 80px;
         }
 
@@ -114,7 +115,7 @@
             padding-bottom: 20px;
         }
 
-        &__holder {
+        &__list {
             gap: 49px;
         }
 
