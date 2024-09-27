@@ -615,9 +615,10 @@
   }
 }
 .contact {
-  margin: 150px 0;
+  height: 450px;
 }
 .contact__title {
+  padding-top: 150px;
   margin-bottom: 74px;
   color: #121212;
   font-size: 18px;
