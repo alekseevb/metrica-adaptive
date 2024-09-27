@@ -805,6 +805,10 @@
     letter-spacing: -0.39px;
   }
 }
+* {
+  outline: 1px solid green;
+}
+
 body {
   font-family: "Manrope", sans-serif;
 }
