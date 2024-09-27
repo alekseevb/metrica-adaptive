@@ -686,10 +686,8 @@
 }
 
 @media (max-width: 960px) {
-  .contact {
-    margin: 120px 0;
-  }
   .contact__title {
+    padding-top: 120px;
     font-size: 18px;
   }
   .contact__list {
@@ -714,15 +712,15 @@
   }
 }
 @media (max-width: 768px) {
-  .contact__list {
+  .contact .contact__title {
+    padding-top: 80px;
+  }
+  .contact .contact__list {
     flex-direction: column;
     gap: 60px;
   }
 }
-@media (max-width: 600px) {
-  .contact {
-    margin: 80px 0;
-  }
+@media (max-width: 768px) and (max-width: 600px) {
   .contact__title {
     font-size: 14px;
     letter-spacing: -0.42px;

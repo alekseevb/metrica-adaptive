@@ -92,9 +92,9 @@
 
 @media (max-width: 960px) {
     .contact {
-        margin: 120px 0;
 
         &__title {
+            padding-top: 120px;
             font-size: 18px;
         }
 
@@ -127,42 +127,49 @@
 
 @media (max-width: 768px) {
     .contact {
-        &__list {
-            flex-direction: column;
-            gap: 60px;
+
+        .contact {
+
+            &__title {
+                padding-top: 80px;
+            }
+
+            &__list {
+                flex-direction: column;
+                gap: 60px;
+            }
         }
     }
-}
 
-@media (max-width: 600px) {
-    .contact {
-        margin: 80px 0;
+    @media (max-width: 600px) {
+        .contact {
 
-        &__title {
-            font-size: 14px;
-            letter-spacing: -0.42px;
-            margin-bottom: 58px;
-        }
+            &__title {
+                font-size: 14px;
+                letter-spacing: -0.42px;
+                margin-bottom: 58px;
+            }
 
-        &__list-title {
-            font-size: 35px;
-            letter-spacing: -1.05px;
-        }
+            &__list-title {
+                font-size: 35px;
+                letter-spacing: -1.05px;
+            }
 
 
 
-        &__list-mail::after {
-            top: -20px;
-            width: 18px;
-            height: 18px;
-            background-size: cover;
-        }
+            &__list-mail::after {
+                top: -20px;
+                width: 18px;
+                height: 18px;
+                background-size: cover;
+            }
 
-        &__list-number::after {
-            top: -20px;
-            width: 18px;
-            height: 18px;
-            background-size: cover;
+            &__list-number::after {
+                top: -20px;
+                width: 18px;
+                height: 18px;
+                background-size: cover;
+            }
         }
     }
 }
