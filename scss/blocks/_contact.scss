@@ -16,11 +16,7 @@
 
     &__list {
         display: flex;
-    }
-
-    &__list-number,
-    &__list-mail {
-        width: 50%;
+        gap: 104px;
     }
 
     &__list-number {
@@ -100,7 +96,9 @@
             font-size: 18px;
         }
 
-
+        &__list {
+            gap: 114px;
+        }
 
         &__list-number {
             font-size: 45px;
@@ -129,12 +127,7 @@
     .contact {
         &__list {
             flex-direction: column;
-            gap: 58px;
-        }
-
-        &__list-mail,
-        &__list-number {
-            width: 100%;
+            gap: 60px;
         }
     }
 }

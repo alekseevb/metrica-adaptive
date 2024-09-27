@@ -629,9 +629,7 @@
 }
 .contact__list {
   display: flex;
-}
-.contact__list-number, .contact__list-mail {
-  width: 50%;
+  gap: 104px;
 }
 .contact__list-number {
   position: relative;
@@ -693,6 +691,9 @@
   .contact__title {
     font-size: 18px;
   }
+  .contact__list {
+    gap: 114px;
+  }
   .contact__list-number {
     font-size: 45px;
     line-height: 60px;
@@ -714,10 +715,7 @@
 @media (max-width: 768px) {
   .contact__list {
     flex-direction: column;
-    gap: 58px;
-  }
-  .contact__list-mail, .contact__list-number {
-    width: 100%;
+    gap: 60px;
   }
 }
 @media (max-width: 600px) {
