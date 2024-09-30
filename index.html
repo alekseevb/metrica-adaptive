@@ -14,7 +14,62 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logo-link" href="#">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./img/mobile-metrica-logo.svg">
+                        <img class="header__logo-img" src="./img/Метрика.svg" alt="logo">
+                    </picture>
+                </a>
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a class="nav__item-link" href="">ПРОЕКТЫ</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="">О НАС</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="">УСЛУГИ</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <button class="js-burger-btn burger-btn">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="./img/mobile-burger.svg">
+                        <img class="burger-btn-img" src="./img/tablet-burger.svg" alt="">
+                    </picture>
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <a class="burger__logo-link" href="#">
+                <img class="burger__logo-img" src="./img/Метрика.svg" alt="logo">
+            </a>
+
+            <nav class="burger__nav">
+                <ul class="burger__items">
+                    <li class="burger__item"><a class="burger__item-link" href="">ПРОЕКТЫ</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="">О НАС</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="">УСЛУГИ</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+
+            <div class="burger__contact-list">
+                <p class="burger__contact-title">для связи:</p>
+                <a class="burger__contact-tel" href="tel:+79358954535">+7 935 895-45-35</a>
+                <a class="burger__contact-mail" href="http://t.me/a_lexseev">@a_lexseev</a>
+            </div>
+
+            <button class="burger__close-btn">
+                <img class="burger__close-img" src="./img/radix-icons_cross-2.svg" alt="close">
+            </button>
+        </div>
+    </div>
 
     <main>
 
@@ -129,9 +184,24 @@
                         <h3 class="services__item-title">Комплектация</h3>
                     </li>
                 </ul>
-                <a href="#" class="services__btn">
+                <button href="#" class="js-btn services__btn">
                     Заказать услугу
-                </a>
+                </button>
+                <div class="js-popup popup">
+                    <div class="js-popup__content popup__content">
+                        <p class="popup__content-title">Заказать услугу</p>
+                        <p class="popup__content-subtitle">Заполните форму, мы свяжемся с вами в течение суток
+                        </p>
+                        <input class="popup__content-input" type="text" placeholder="Имя">
+                        <input class="popup__content-input" type="email" placeholder="Электронная почта">
+                        <input class="popup__content-input" type="tel" placeholder="Номер телефона">
+
+                        <button class="popup__content-sent">Отправить</button>
+                        <button class="js-popup__close-btn popup__close-btn">
+                            <img class="popup__close-img" src="./img/mobile-close.svg" alt="крестик">
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -263,7 +333,9 @@
         </section>
     </main>
 
-    <script src="gallery.js"></script>
+    <script src="burger.js"></script>
+    <script src="popup.js"></script>
+    <!-- <script src="gallery.js"></script> -->
 </body>
 
 </html>
