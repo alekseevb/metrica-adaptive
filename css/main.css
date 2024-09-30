@@ -973,6 +973,7 @@
   justify-content: end;
   opacity: 0;
   visibility: hidden;
+  transition: all 0.4s ease;
   background-color: rgba(0, 0, 0, 0.9);
 }
 .burger_open {
@@ -993,7 +994,6 @@
   background: none;
   border: none;
 }
-
 .burger__nav {
   margin-top: 50px;
 }
@@ -1012,7 +1012,6 @@
   letter-spacing: -0.75px;
   text-transform: uppercase;
 }
-
 .burger__contact-list {
   display: flex;
   flex-direction: column;
