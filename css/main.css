@@ -971,10 +971,10 @@
   width: 30px;
   height: 10px;
   background-repeat: no-repeat;
-  background-image: url(../../img/tablet-burger.svg);
+  background-image: url(../img/tablet-burger.svg);
 }
 .burger-btn_open {
-  background-image: url(../../img/mobile-close.svg);
+  background-image: url(../img/mobile-close.svg);
   height: 30px;
 }
 
