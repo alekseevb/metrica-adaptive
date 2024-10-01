@@ -353,13 +353,13 @@
 }
 @media (max-width: 600px) {
   .services {
+    padding: 80px 0;
     margin-bottom: 80px;
   }
   .services__inner {
     padding-bottom: 80px;
   }
   .services__title {
-    padding-top: 80px;
     margin-bottom: 20px;
     font-size: 14px;
     letter-spacing: -0.42px;
@@ -614,6 +614,9 @@
   }
   .gallery__btn-wrapper {
     padding-left: 0;
+  }
+  .gallery__item-box {
+    height: 408px;
   }
 }
 .contact {
@@ -951,15 +954,28 @@
   margin: 33px 0 74px 0;
 }
 .header__inner {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
 .burger-btn {
+  position: relative;
+  position: absolute;
+  right: 15px;
+  z-index: 10000;
   display: none;
   border: none;
   background: none;
   padding: 0;
   cursor: pointer;
+  width: 30px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-image: url(../../img/tablet-burger.svg);
+}
+.burger-btn_open {
+  background-image: url(../../img/mobile-close.svg);
+  height: 30px;
 }
 
 .burger {
@@ -979,12 +995,19 @@
 .burger_open {
   opacity: 1;
   visibility: visible;
+  transform: translateX(0);
+}
+.burger_open .burger__content {
+  transform: translateX(0);
 }
 .burger__content {
   position: relative;
   width: 274px;
   max-height: 100%;
   background-color: white;
+  transition: transform 0.3s linear;
+  transform: translateX(100%);
+  overflow-y: auto;
   padding: 80px 0 0 30px;
 }
 .burger__close-btn {

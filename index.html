@@ -27,17 +27,13 @@
                 </a>
                 <nav class="nav">
                     <ul class="nav__items">
-                        <li class="nav__item"><a class="nav__item-link" href="">ПРОЕКТЫ</a></li>
-                        <li class="nav__item"><a class="nav__item-link" href="">О НАС</a></li>
-                        <li class="nav__item"><a class="nav__item-link" href="">УСЛУГИ</a></li>
-                        <li class="nav__item"><a class="nav__item-link" href="">КОНТАКТЫ</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="#projects">ПРОЕКТЫ</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="#about">О НАС</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="#services">УСЛУГИ</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="#contact">КОНТАКТЫ</a></li>
                     </ul>
                 </nav>
                 <button class="js-burger-btn burger-btn">
-                    <picture>
-                        <source media="(max-width: 600px)" srcset="./img/mobile-burger.svg">
-                        <img class="burger-btn-img" src="./img/tablet-burger.svg" alt="">
-                    </picture>
                 </button>
             </div>
         </div>
@@ -45,28 +41,27 @@
     </header>
 
     <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class=" burger__content">
             <a class="burger__logo-link" href="#">
                 <img class="burger__logo-img" src="./img/Метрика.svg" alt="logo">
             </a>
 
             <nav class="burger__nav">
                 <ul class="burger__items">
-                    <li class="burger__item"><a class="burger__item-link" href="">ПРОЕКТЫ</a></li>
-                    <li class="burger__item"><a class="burger__item-link" href="">О НАС</a></li>
-                    <li class="burger__item"><a class="burger__item-link" href="">УСЛУГИ</a></li>
-                    <li class="burger__item"><a class="burger__item-link" href="">КОНТАКТЫ</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="#projects">ПРОЕКТЫ</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="#about">О НАС</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="#services">УСЛУГИ</a></li>
+                    <li class="burger__item"><a class="burger__item-link" href="#contact">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
 
-            <div class="burger__contact-list">
+            <div class="js-burger__content burger__contact-list">
                 <p class="burger__contact-title">для связи:</p>
                 <a class="burger__contact-tel" href="tel:+79358954535">+7 935 895-45-35</a>
                 <a class="burger__contact-mail" href="http://t.me/a_lexseev">@a_lexseev</a>
             </div>
 
             <button class="burger__close-btn">
-                <img class="burger__close-img" src="./img/radix-icons_cross-2.svg" alt="close">
             </button>
         </div>
     </div>
@@ -258,7 +253,11 @@
             </div>
             <div class="gallery__list">
                 <div class="gallery__item gallery__slide_active">
-                    <img class="gallery__item-box" src="img/gallery 1.png" alt="">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="img/mobile-gallery_1.png">
+                        <img class="gallery__item-box" src="img/gallery 1.png" alt="">
+                    </picture>
+
                     <div class="gallery__iten-wrapper">
                         <div class="container">
                             <p class="gallery__item-title">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
