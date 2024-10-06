@@ -59,12 +59,14 @@
   .block__img {
     background-image: url(../img/mobile-main.jpg);
     background-position: left;
+    height: 304px;
   }
   .block__img-text {
     font-size: 16px;
     letter-spacing: -0.48px;
     left: 15px;
     bottom: 15px;
+    max-width: 312px;
   }
 }
 .about {

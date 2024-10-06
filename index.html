@@ -187,11 +187,13 @@
                         <p class="popup__content-title">Заказать услугу</p>
                         <p class="popup__content-subtitle">Заполните форму, мы свяжемся с вами в течение суток
                         </p>
-                        <input class="popup__content-input" type="text" placeholder="Имя">
-                        <input class="popup__content-input" type="email" placeholder="Электронная почта">
-                        <input class="popup__content-input" type="tel" placeholder="Номер телефона">
+                        <form action="">
+                            <input class="popup__content-input" type="text" placeholder="Имя">
+                            <input class="popup__content-input" type="email" placeholder="Электронная почта">
+                            <input class="popup__content-input" type="tel" placeholder="Номер телефона">
+                        </form>
 
-                        <button class="popup__content-sent">Отправить</button>
+                        <button type="submit" class="popup__content-sent">Отправить</button>
                         <button class="js-popup__close-btn popup__close-btn">
                             <img class="popup__close-img" src="./img/mobile-close.svg" alt="крестик">
                         </button>
@@ -203,9 +205,9 @@
         <section class="reviews">
             <div class="container">
                 <h2 class="reviews__title">ОТЗЫВЫ</h2>
-                <div class="reviews__holder">
-                    <div class="reviews__item">
-                        <p class="reviews__item-title">Ксения, проект 65 кв.м.</p>
+                <ul class="reviews__holder">
+                    <li class="reviews__item">
+                        <h3 class="reviews__item-title">Ксения, проект 65 кв.м.</h3>
                         <p class="reviews__item-subtitle">Хочу искренне поблагодарить Вас за работу, проделанную на
                             высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение
                             правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все
@@ -214,9 +216,9 @@
                             что мы хотим и даже больше!</p>
                         <p class="reviews__item-subtitle">Вам удалось это просто превосходно! Нам лишь осталось
                             воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!</p>
-                    </div>
-                    <div class="reviews__item">
-                        <p class="reviews__item-title">Регина, проект 89 кв.м.</p>
+                    </li>
+                    <li class="reviews__item">
+                        <h3 class="reviews__item-title">Регина, проект 89 кв.м.</h3>
                         <p class="reviews__item-subtitle">Спасибо большое за такой классный проект! Все стильно,
                             круто,
                             продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу
@@ -226,9 +228,9 @@
                         <p class="reviews__item-subtitle">Хочется скорее реализовать проект и наслаждаться
                             современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и
                             знакомым!</p>
-                    </div>
-                    <div class="reviews__item">
-                        <p class="reviews__item-title">Яна, проект 120 кв.м.</p>
+                    </li>
+                    <li class="reviews__item">
+                        <h3 class="reviews__item-title">Яна, проект 120 кв.м.</h3>
                         <p class="reviews__item-subtitle">Хотелось бы сказать большое спасибо за проделанную работу!
                             В
                             задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не
@@ -240,8 +242,8 @@
                             реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем,
                             кому
                             еще предстоит это непростое дело - ремонт!</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -322,22 +324,23 @@
             </div>
         </section>
 
-        <section class="footer">
-            <div class="container">
-                <div class="footer__inner">
-                    <nav class="footer__link-wrapper">
-                        <ul class="footer__nav-links">
-                            <li><a class="footer__link" href="#about">О НАС</a></li>
-                            <li><a class="footer__link" href="#projects">ПРОЕКТЫ</a></li>
-                            <li><a class="footer__link" href="#services">УСЛУГИ</a></li>
-                            <li><a class="footer__link" href="#contact">КОНТАКТЫ</a></li>
-                        </ul>
-                    </nav>
-                    <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
-                </div>
-            </div>
-        </section>
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <nav class="footer__link-wrapper">
+                    <ul class="footer__nav-links">
+                        <li><a class="footer__link" href="#about">О НАС</a></li>
+                        <li><a class="footer__link" href="#projects">ПРОЕКТЫ</a></li>
+                        <li><a class="footer__link" href="#services">УСЛУГИ</a></li>
+                        <li><a class="footer__link" href="#contact">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="burger.js"></script>
     <script src="popup.js"></script>
